@@ -2,7 +2,7 @@
 
 ## Tittle: "English dictionary."
 
-### I present english to english dictionary based on Deepl engine, reportedly the world 's best and accurate one
+### I present english to english dictionary based on Deepl engine with SpeechSynthesis interface, reportedly the world 's best and accurate one
 
 ### Usage: just enter the english word or expression, than select the type of details. Aftermath You can either choose the language specification from browser variety
 
