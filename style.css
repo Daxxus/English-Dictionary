@@ -14,18 +14,15 @@ html {
 	font-size: 62.5%;
 }
 .words {
-	position: relative;
-	left: 0;
 	color: #fff;
 	font-size: 2em;
-	width: 20em;
-	transform: translateX(50%);
+	/*transform: translateX(10%); */
 }
 .words .data {
 	display: flex;
 	flex-flow: column wrap;
 }
-.words .error{
+.words .error {
 	color: crimson;
 	margin-top: 1em;
 	visibility: hidden;
@@ -47,21 +44,20 @@ html {
 	padding: 20px;
 }
 .words .note {
+	position: absolute;
 	display: none;
 	justify-content: flex-start;
 	flex-direction: column;
-	position: absolute;
-	right: -400%;
-	top: 2.8em;
+	left: 0;
+	top: 2.7em;
 	overflow: scroll;
 	background-color: white;
 	color: black;
-	max-width: 200%;
-	min-width: 200%;
-	max-height: 30em;
+	width: 100%;
+	height: 20em;
 	margin-bottom: 2em;
 	padding: 0.6em 1.2em;
-	border: none;	
+	border: none;
 	transition: right 0.6s;
 	animation: position 1s;
 }
@@ -80,8 +76,9 @@ html {
 .synth {
 	opacity: 0;
 	border-radius: 0.5em;
-	padding: 1em;
+	padding: 0.8em;
 	box-shadow: 5px 5px 10px rgb(255, 255, 255);
+	margin-top: 11em;
 }
 .anim {
 	animation: opacity 1s 1s forwards;
@@ -109,7 +106,7 @@ html {
 	gap: 1em;
 }
 .synth button {
-	margin: 2.5em 0;
+	margin: 2em 0;
 	padding: 0.5em;
 	border-radius: 0.3em;
 	font-size: 1em;
@@ -136,5 +133,37 @@ html {
 	}
 	to {
 		opacity: 1;
+	}
+}
+
+@media (min-width: 375px) {
+	.words {
+		font-size: 2em;
+		transform: translateX(10%);
+	}
+	.words .note {
+		max-height: 30em;
+		margin-bottom: 2em;
+	}
+}
+@media (min-width: 768px) {
+	.words .note {
+		left: 17em;
+		max-width: 100%;
+		min-height: 88%;
+	}
+	.synth {
+		margin-top: 1em;
+	}
+}
+@media (min-width: 992px) {
+	.words .note {
+		min-width: 170%;
+		min-height: 88%;
+	}
+}
+@media (min-width: 1200px) {
+	.words .note {
+		min-width: 200%;
 	}
 }
