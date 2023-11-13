@@ -1,6 +1,6 @@
-# Hi everyone
+## Hi everyone
 
-# Tittle: "English translator."
+## Tittle: "English translator."
 
 ### I present english to english dictionary based on Deepl engine, reportedly the world 's best and accurate one
 
