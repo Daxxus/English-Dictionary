@@ -1,8 +1,8 @@
 ## Hi everyone
 
-## Tittle: "English translator."
+## Tittle: "English dictionary."
 
-### I present english to english dictionary based on Deepl engine, reportedly the world 's best and accurate one
+### I present english to english dictionary based on Deepl engine with SpeechSynthesis interface, reportedly the world 's best and accurate one
 
 ### Usage: just enter the english word or expression, than select the type of details. Aftermath You can either choose the language specification from browser variety
 
@@ -11,4 +11,4 @@
 ### Technologies: ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 
-### Site :  https://daxxus.github.io/English-Translator/
+### Site :  https://daxxus.github.io/English-Dictionary/
