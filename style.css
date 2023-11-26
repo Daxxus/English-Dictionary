@@ -48,6 +48,7 @@ html {
 	display: none;
 	justify-content: flex-start;
 	flex-direction: column;
+	margin-left: 2em;
 	left: 0;
 	top: 2.7em;
 	overflow: scroll;
@@ -95,6 +96,7 @@ html {
 .synth .options select {
 	padding: 1em;
 	border-radius: 0.5em;
+	width: 25em;
 }
 .synth .options label {
 	margin-top: 0.5em;
@@ -136,7 +138,12 @@ html {
 	}
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
+	.words .note {
+		margin-left: 0;
+	}
+}
+@media (min-width: 376px) {
 	.words {
 		font-size: 2em;
 		transform: translateX(10%);
@@ -144,6 +151,7 @@ html {
 	.words .note {
 		max-height: 30em;
 		margin-bottom: 2em;
+		margin-left: 0;
 	}
 }
 @media (min-width: 768px) {
@@ -151,6 +159,7 @@ html {
 		left: 17em;
 		max-width: 100%;
 		min-height: 88%;
+		margin-left: 2em;
 	}
 	.synth {
 		margin-top: 1em;
@@ -160,10 +169,12 @@ html {
 	.words .note {
 		min-width: 170%;
 		min-height: 88%;
+		margin-left: 2em;
 	}
 }
 @media (min-width: 1200px) {
 	.words .note {
 		min-width: 200%;
+		margin-left: 2em;
 	}
 }
